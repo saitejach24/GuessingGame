@@ -68,11 +68,24 @@ html,body{
   width: 170px;
 }
 
-@media  (320px <= width <= 620px) {
+@media  (320px <= width <= 420px) {
  #imagegame{
-  height:100px;
+  height:105px;
+  width: 350px;
   position: relative;
-  right: 30px;
+  right: 25px;
+
  }
  
 }
+
+@media  (420px <= width <= 600px) {
+  #imagegame{
+   height:164px;
+   /* width: 350px; */
+   position: relative;
+   right: 25px;
+ 
+  }
+  
+ }
