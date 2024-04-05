@@ -28,6 +28,7 @@ html,body{
   background-color: #246db6;
   padding-bottom: 30px;
   padding-top: 30px;
+ 
 }
  
 .guess-heading {
@@ -70,5 +71,8 @@ html,body{
 @media  (320px <= width <= 620px) {
  #imagegame{
   height:100px;
+  position: relative;
+  right: 30px;
  }
+ 
 }
